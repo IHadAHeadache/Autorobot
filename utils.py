@@ -2,7 +2,7 @@ import requests
 
 
 GRAPH_URL = "https://graph.facebook.com/v2.6"
-ACCESS_TOKEN = ""
+ACCESS_TOKEN = "EAAE3JG70qM0BACYSCBY9toURa9AQuw4HZCLmXy4VOYHLO9OkWrTOjE1ur9LppKUsM9KckbusRZC6hVWLquAdzcxy9kal0PmaFwloY5GP4aTZC0p2LAL49Wd2kGtqgecZAFPwgDoiWJTVN8QNaKoyvo8SrWNyBeFvEb0SyZCHIIoxcaFGZC15qT"
 
 
 def send_text_message(id, text):
