@@ -43,8 +43,6 @@ After that, `ngrok` would generate a https URL.
 python3 app.py
 ```
 
-## Finite State Machine
-![fsm](./img/show-fsm.png)
 
 ## Usage
 The initial state is set to `user`.
@@ -52,11 +50,26 @@ The initial state is set to `user`.
 Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
 
 * user
-	* Input: "go to state1"
-		* Reply: "I'm entering state1"
+	(* Input: "song1"
+		* Reply: "Pantera - Cowboys from Hell"
 
-	* Input: "go to state2"
-		* Reply: "I'm entering state2"
+	* Input: "song2"
+		* Reply: "Machine Head - Locust"
+		
+	* Input: "song3"
+		* Reply: "DOWN - Stone the Crow"
+
+	* Input: "song4"
+		* Reply: "Bush - Glycerine")
+	
+	* Input: "Hi"
+		* Reply: "Hello, world!"
+
+	* Input: "tell me a joke"
+		* Reply: "How many tickles does it take to make an octupus laugh? Ten. Tentacles!"
+		
+	* Input: "news"
+		* Reply: "https://www.reuters.com"
 
 
 ## Reference
